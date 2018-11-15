@@ -1,0 +1,35 @@
+//base styling
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+*,
+*::after,
+*::before {
+        box-sizing: inherit;
+}
+html {
+        box-sizing: border-box;
+        font-size: 62.5%; //// 1 rem = 10px, 10px/16p = 62.5%
+}
+
+body {
+        background-color: $color-main;
+        height: 100vh;
+        overflow: hidden;
+        font-family: sans-serif;
+}
+
+// responsive image
+
+img {
+        max-width: 100%;
+        height: auto;
+}
+
+.container {
+        max-width: 1055px;
+        margin: 0 auto;
+}
