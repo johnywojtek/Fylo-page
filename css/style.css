@@ -12,20 +12,40 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-color: #97ca2f;
+  background-color: white;
   height: 100vh;
   overflow: hidden;
-  font-family: sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 img {
   max-width: 100%;
   height: auto; }
 
 .container {
-  max-width: 1055px;
-  margin: 0 auto; }
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid red; }
 
-nav {
+.navigation {
   height: 100px;
-  color: black;
-  background-color: #fff; }
+  background-color: white;
+  margin: 40px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.navigation__list {
+  list-style: none;
+  display: flex; }
+
+.navigation__item {
+  margin-left: 57px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem; }
+
+.navigation__item--first {
+  margin-left: 0; }
+
+.navigation__link {
+  text-decoration: none;
+  color: black; }

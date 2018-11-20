@@ -1,5 +1,30 @@
-nav {
-        height: 100px;
-        color: black;
-        background-color: #fff;
+@import "../abstracts/_variables.scss";
+
+.navigation {
+    height: 100px;
+    background-color: $color-main;
+    margin: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation__list {
+    list-style: none;
+    display: flex;
+}
+
+.navigation__item {
+    margin-left: 57px;
+    font-family: $font-second;
+    font-size: 1.6rem;
+}
+
+.navigation__item--first {
+    margin-left: 0;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: $color-secondary;
 }

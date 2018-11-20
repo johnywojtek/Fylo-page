@@ -1,4 +1,14 @@
-/////// Colors
-//example
-$color-main: rgb(151, 202, 47);
+// Colors
+
+$color-main: white;
 $color-secondary: black;
+$color-dark-blue: hsl(243, 87%, 12%);
+$color-desaturated-blue: hsl(238, 22%, 44%);
+$color-bright-blue: hsl(224, 93%, 58%);
+$color-moderate-cyan: hsl(170, 45%, 43%);
+$color-light-blue: hsl(240, 75%, 98%);
+$color-light-grey: hsl(0, 0%, 75%);
+
+// Fonts
+$font-main: 'Open Sans', sans-serif;
+$font-second: 'Raleway', sans-serif;
