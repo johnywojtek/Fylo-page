@@ -49,3 +49,10 @@ img {
 .navigation__link {
   text-decoration: none;
   color: black; }
+
+.get-started {
+  margin: 80px;
+  display: flex; }
+
+.get-started__left, .get-started__right {
+  flex-basis: 50%; }
