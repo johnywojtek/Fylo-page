@@ -18,8 +18,6 @@ html {
 
 body {
     background-color: $color-main;
-    height: 100vh;
-    overflow: hidden;
     font-family: $font-main;
 }
 
@@ -36,14 +34,3 @@ img {
     border: 1px solid red;
 }
 
-.section__title {
-    font-family: $font-second;
-    font-size: 4rem;
-    line-height: 1.5;
-    padding-bottom: 20px;
-}
-
-.section__text {
-    font-size: 1.8rem;
-    padding-bottom: 20px;
-}

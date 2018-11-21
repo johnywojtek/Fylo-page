@@ -13,8 +13,6 @@ html {
 
 body {
   background-color: white;
-  height: 100vh;
-  overflow: hidden;
   font-family: "Open Sans", sans-serif; }
 
 img {
@@ -37,9 +35,9 @@ img {
   padding-bottom: 20px; }
 
 .navigation {
-  height: 100px;
+  height: 180px;
   background-color: white;
-  margin: 40px 80px;
+  padding: 40px 80px;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -61,7 +59,7 @@ img {
   color: black; }
 
 .get-started {
-  margin: 80px;
+  padding: 20px 80px;
   display: flex; }
 
 .get-started__left, .get-started__right {
@@ -73,18 +71,19 @@ img {
   flex-direction: column;
   justify-content: center; }
 
-.get-started__input {
-  width: 320px;
-  height: 44px;
-  border: 1px solid black;
-  border-radius: 3px;
-  margin-right: 15px;
-  padding-left: 15px;
-  box-shadow: 5px 5px 0 0 #f6f6fe; }
-  .get-started__input::placeholder {
-    color: #bfbfbf; }
+.get-started__form {
+  padding-bottom: 40px; }
 
-.get-started__btn {
+.info {
+  color: white;
+  background-color: #070439;
+  padding: 40px 80px;
+  fill: currentColor; }
+
+.info__image {
+  filter: invert(1); }
+
+.btn {
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 1.4rem;
@@ -94,4 +93,16 @@ img {
   height: 44px;
   border-radius: 5px;
   border: none;
+  box-shadow: 5px 5px 0 0 #f6f6fe;
+  cursor: pointer; }
+
+.input {
+  width: 320px;
+  height: 44px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-right: 15px;
+  padding-left: 15px;
   box-shadow: 5px 5px 0 0 #f6f6fe; }
+  .input::placeholder {
+    color: #bfbfbf; }
