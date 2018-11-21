@@ -77,11 +77,7 @@ img {
 .info {
   color: white;
   background-color: #070439;
-  padding: 40px 80px;
-  fill: currentColor; }
-
-.info__image {
-  filter: invert(1); }
+  padding: 40px 80px; }
 
 .btn {
   color: white;
