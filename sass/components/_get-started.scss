@@ -1,3 +1,5 @@
+@import "../abstracts/_variables";
+
 .get-started {
     margin: 80px;
     display: flex;
@@ -7,3 +9,17 @@
     flex-basis: 50%;
 }
 
+.get-started__left {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.get-started__input {
+    @include input;
+}
+
+.get-started__btn {
+    @include btn;
+}
