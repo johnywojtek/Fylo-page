@@ -1,0 +1,13 @@
+@import "../abstracts/variables";
+
+.info {
+    color: $color-main;
+    background-color: $color-dark-blue;
+    padding: 40px 80px;
+    fill: currentColor;
+}
+
+.info__image {
+    filter: invert(1);
+}
+

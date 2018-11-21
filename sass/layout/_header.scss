@@ -1,9 +1,9 @@
-@import "../abstracts/_variables.scss";
+@import "../abstracts/variables";
 
 .navigation {
-    height: 100px;
+    height: 180px;
     background-color: $color-main;
-    margin: 40px 80px;
+    padding: 40px 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
