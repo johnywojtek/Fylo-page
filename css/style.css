@@ -28,56 +28,49 @@ img {
   font-family: "Raleway", sans-serif;
   font-size: 4rem;
   line-height: 1.5;
-  padding-bottom: 20px; }
+  padding-bottom: 2rem; }
 
 .section__text {
   font-size: 1.8rem;
-  padding-bottom: 20px; }
+  padding-bottom: 2rem; }
 
 .navigation {
-  height: 180px;
+  height: 18rem;
   background-color: white;
-  padding: 40px 80px;
+  padding: 4rem 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between; }
-
-.navigation__list {
-  list-style: none;
-  display: flex; }
-
-.navigation__item {
-  margin-left: 57px;
-  font-family: "Raleway", sans-serif;
-  font-size: 1.6rem; }
-
-.navigation__item--first {
-  margin-left: 0; }
-
-.navigation__link {
-  text-decoration: none;
-  color: black; }
+  .navigation__list {
+    list-style: none;
+    display: flex; }
+  .navigation__item {
+    margin-left: 5.7rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem; }
+  .navigation__item--first {
+    margin-left: 0; }
+  .navigation__link {
+    text-decoration: none;
+    color: black; }
 
 .get-started {
-  padding: 20px 80px;
+  padding: 2rem 8rem;
   display: flex; }
-
-.get-started__left, .get-started__right {
-  flex-basis: 50%; }
-
-.get-started__left {
-  padding-right: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-.get-started__form {
-  padding-bottom: 40px; }
+  .get-started__left, .get-started__right {
+    flex-basis: 50%; }
+  .get-started__left {
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .get-started__form {
+    padding-bottom: 4rem; }
 
 .info {
   color: white;
   background-color: #070439;
-  padding: 110px 80px 70px; }
+  padding: 11rem 8rem 7rem; }
   .info__content {
     font-size: 1.6rem;
     display: flex;
@@ -124,20 +117,20 @@ img {
   font-size: 1.4rem;
   font-weight: 700;
   background-color: #3065f8;
-  width: 200px;
-  height: 44px;
+  width: 20rem;
+  height: 4.4rem;
   border-radius: 5px;
   border: none;
   box-shadow: 5px 5px 0 0 #f6f6fe;
   cursor: pointer; }
 
 .input {
-  width: 320px;
-  height: 44px;
+  width: 32rem;
+  height: 4.4rem;
   border: 1px solid black;
   border-radius: 3px;
-  margin-right: 15px;
-  padding-left: 15px;
+  margin-right: 1.5rem;
+  padding-left: 1.5rem;
   box-shadow: 5px 5px 0 0 #f6f6fe; }
   .input::placeholder {
     color: #bfbfbf; }
