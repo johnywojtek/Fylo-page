@@ -1,8 +1,11 @@
 @import "../abstracts/variables";
 
 .get-started {
-    padding: 2rem 8rem;
-    display: flex;
+    padding: 2rem 0;
+
+    &__container {
+        display: flex;
+    }
 
     &__left, &__right {
         flex-basis: 50%;
