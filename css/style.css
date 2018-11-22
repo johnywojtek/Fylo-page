@@ -22,6 +22,7 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 8rem;
   border: 1px solid red; }
 
 .section__title {
@@ -35,12 +36,11 @@ img {
   padding-bottom: 2rem; }
 
 .navigation {
-  height: 18rem;
-  background-color: white;
-  padding: 4rem 8rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
+  padding: 6rem 0; }
+  .navigation__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
   .navigation__list {
     list-style: none;
     display: flex; }
@@ -55,8 +55,9 @@ img {
     color: black; }
 
 .get-started {
-  padding: 2rem 8rem;
-  display: flex; }
+  padding: 2rem 0; }
+  .get-started__container {
+    display: flex; }
   .get-started__left, .get-started__right {
     flex-basis: 50%; }
   .get-started__left {
