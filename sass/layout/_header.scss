@@ -1,12 +1,13 @@
 @import "../abstracts/variables";
 
 .navigation {
-    height: 18rem;
-    background-color: $color-main;
-    padding: 4rem 8rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 6rem 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
     &__list {
         list-style: none;
