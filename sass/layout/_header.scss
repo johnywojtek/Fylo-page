@@ -1,30 +1,30 @@
 @import "../abstracts/variables";
 
 .navigation {
-    height: 180px;
+    height: 18rem;
     background-color: $color-main;
-    padding: 40px 80px;
+    padding: 4rem 8rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
 
-.navigation__list {
-    list-style: none;
-    display: flex;
-}
+    &__list {
+        list-style: none;
+        display: flex;
+    }
 
-.navigation__item {
-    margin-left: 57px;
-    font-family: $font-second;
-    font-size: 1.6rem;
-}
+    &__item {
+        margin-left: 5.7rem;
+        font-family: $font-second;
+        font-size: 1.6rem;
+    }
 
-.navigation__item--first {
-    margin-left: 0;
-}
+    &__item--first {
+        margin-left: 0;
+    }
 
-.navigation__link {
-    text-decoration: none;
-    color: $color-secondary;
+    &__link {
+        text-decoration: none;
+        color: $color-secondary;
+    }
 }

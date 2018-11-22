@@ -1,22 +1,22 @@
 @import "../abstracts/variables";
 
 .get-started {
-    padding: 20px 80px;
+    padding: 2rem 8rem;
     display: flex;
-}
 
-.get-started__left, .get-started__right {
-    flex-basis: 50%;
-}
+    &__left, &__right {
+        flex-basis: 50%;
+    }
 
-.get-started__left {
-    padding-right: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    &__left {
+        padding-right: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.get-started__form {
-    padding-bottom: 40px;
+    &__form {
+        padding-bottom: 4rem;
+    }
 }
 
