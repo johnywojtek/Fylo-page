@@ -1,0 +1,12 @@
+.input {
+    width: 32rem;
+    height: 4.4rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 1.5rem;
+    padding-left: 1.5rem;
+    box-shadow: 5px 5px 0 0 $color-light-blue;
+    &::placeholder {
+        color: $color-light-grey;
+    }
+}

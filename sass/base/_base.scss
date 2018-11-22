@@ -1,35 +1,36 @@
 //base styling
 
 * {
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 *,
 *::after,
 *::before {
-        box-sizing: inherit;
+    box-sizing: inherit;
 }
+
 html {
-        box-sizing: border-box;
-        font-size: 62.5%; //// 1 rem = 10px, 10px/16p = 62.5%
+    box-sizing: border-box;
+    font-size: 62.5%; //// 1 rem = 10px, 10px/16p = 62.5%
 }
 
 body {
-        background-color: $color-main;
-        height: 100vh;
-        overflow: hidden;
-        font-family: sans-serif;
+    background-color: $color-main;
+    font-family: $font-main;
 }
 
 // responsive image
 
 img {
-        max-width: 100%;
-        height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
-        max-width: 1055px;
-        margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red;
 }
+
