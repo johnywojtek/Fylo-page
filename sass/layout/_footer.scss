@@ -1,10 +1,17 @@
-@import "../abstracts/variables";
+@import '../abstracts/variables';
 
 .info {
     color: $color-main;
     background-color: $color-dark-blue;
+<<<<<<< HEAD
     padding: 11rem 0 7rem;
 
+=======
+    .container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+>>>>>>> 5fdcaef4a90de421ca44cefcca70a8e4e9493ec9
     &__content {
         font-size: 1.6rem;
         display: flex;
@@ -54,11 +61,10 @@
         text-decoration: none;
         margin-top: 2rem;
     }
-
 }
 
 .fab {
-    padding-top: .7rem;
+    padding-top: 0.7rem;
     width: 3.2rem;
     height: 3.2rem;
     text-align: center;
