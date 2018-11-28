@@ -71,7 +71,7 @@ img {
 .info {
   color: white;
   background-color: #070439;
-  padding: 11rem 8rem 7rem; }
+  padding: 11rem 0 7rem; }
   .info__content {
     font-size: 1.6rem;
     display: flex;
