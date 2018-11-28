@@ -22,8 +22,7 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 8rem;
-  border: 1px solid red; }
+  padding: 0 8rem; }
 
 .section__title {
   font-family: "Raleway", sans-serif;
@@ -67,6 +66,70 @@ img {
     justify-content: center; }
   .get-started__form {
     padding-bottom: 4rem; }
+
+.about__head-img {
+  margin-top: 10rem;
+  margin-bottom: -0.7rem; }
+  .about__head-img img {
+    width: 100vw; }
+
+.about {
+  padding: 0 0 10rem 0;
+  background-color: #f6f6fe; }
+  .about .container {
+    display: flex; }
+  .about__link {
+    color: #3c9f8f;
+    font-size: 2rem;
+    text-decoration: none;
+    border-bottom: 1px solid #3c9f8f; }
+  .about .about__text {
+    padding-right: 10rem; }
+  .about__left {
+    width: 55%; }
+  .about__right {
+    width: 45%; }
+
+.comment {
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+  margin-top: 4rem;
+  padding: 2rem;
+  width: 40%;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px; }
+  .comment__quote {
+    margin-bottom: 1rem; }
+  .comment__text {
+    line-height: 1.6rem;
+    font-size: 1.2rem; }
+  .comment__user-data {
+    margin-left: 1rem; }
+  .comment__user {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem; }
+    .comment__user-photo {
+      border-radius: 50%;
+      width: 3rem;
+      height: 3rem; }
+    .comment__user-name {
+      font-weight: bold;
+      margin-bottom: 0.2rem; }
+
+.early-access {
+  background-color: #585989; }
+  .early-access__text {
+    color: white;
+    width: 50%;
+    margin-right: 30rem; }
+  .early-access__form {
+    width: 50%; }
+  .early-access .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 8rem; }
 
 .info {
   color: white;
@@ -125,6 +188,10 @@ img {
   box-shadow: 5px 5px 0 0 #f6f6fe;
   cursor: pointer; }
 
+.early-access__button {
+  box-shadow: none;
+  margin-top: 2rem; }
+
 .input {
   width: 32rem;
   height: 4.4rem;
@@ -135,3 +202,7 @@ img {
   box-shadow: 5px 5px 0 0 #f6f6fe; }
   .input::placeholder {
     color: #bfbfbf; }
+
+.early-access__input {
+  width: 90%;
+  box-shadow: none; }
