@@ -10,6 +10,9 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 36rem) {
+    html {
+      font-size: 35%; } }
 
 body {
   background-color: #fff;
@@ -23,6 +26,9 @@ img {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 8rem; }
+  @media only screen and (max-width: 36rem) {
+    .container {
+      padding: 0; } }
 
 .section__title {
   font-family: "Raleway", sans-serif;
@@ -76,8 +82,16 @@ img {
 .about {
   padding: 0 0 10rem 0;
   background-color: #f8f8fe; }
+  @media only screen and (max-width: 36rem) {
+    .about {
+      padding: 0; } }
   .about .container {
-    display: flex; }
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 36rem) {
+      .about .container {
+        flex-direction: column; } }
   .about__link {
     color: #3c9e8e;
     font-size: 2rem;
@@ -85,10 +99,23 @@ img {
     border-bottom: 1px solid #3c9e8e; }
   .about .about__text {
     padding-right: 10rem; }
+    @media only screen and (max-width: 36rem) {
+      .about .about__text {
+        padding-right: 0; } }
   .about__left {
     width: 55%; }
+    @media only screen and (max-width: 36rem) {
+      .about__left {
+        width: 90%;
+        order: 2;
+        text-align: center;
+        margin-top: 2rem; } }
   .about__right {
     width: 45%; }
+    @media only screen and (max-width: 36rem) {
+      .about__right {
+        width: 90%;
+        order: 1; } }
 
 .comment {
   font-family: "Raleway", sans-serif;
@@ -98,6 +125,11 @@ img {
   width: 40%;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   border-radius: 5px; }
+  @media only screen and (max-width: 36rem) {
+    .comment {
+      width: 70%;
+      text-align: left;
+      margin: 4rem auto; } }
   .comment__quote {
     margin-bottom: 1rem; }
   .comment__text {
@@ -107,7 +139,6 @@ img {
     margin-left: 1rem; }
   .comment__user {
     display: flex;
-    align-items: center;
     margin-top: 1rem; }
     .comment__user-photo {
       border-radius: 50%;
@@ -119,18 +150,32 @@ img {
 
 .early-access {
   background-color: #575988; }
+  @media only screen and (max-width: 36rem) {
+    .early-access {
+      text-align: center; } }
   .early-access__text {
     color: #fff;
     width: 50%;
     margin-right: 30rem; }
+    @media only screen and (max-width: 36rem) {
+      .early-access__text {
+        width: 90%;
+        margin-right: 0; } }
   .early-access__form {
     width: 50%; }
+    @media only screen and (max-width: 36rem) {
+      .early-access__form {
+        width: 90%;
+        margin-top: 3rem; } }
   .early-access .container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 5rem; }
+    @media only screen and (max-width: 36rem) {
+      .early-access .container {
+        flex-direction: column; } }
 
 .info {
   color: #fff;
