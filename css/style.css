@@ -133,17 +133,11 @@ img {
     padding-bottom: 5rem; }
 
 .info {
-<<<<<<< HEAD
-  color: white;
-  background-color: #070439;
-  padding: 11rem 0 7rem; }
-=======
   color: #fff;
   background-color: #060339; }
   .info .container {
     padding-top: 5rem;
     padding-bottom: 5rem; }
->>>>>>> 5fdcaef4a90de421ca44cefcca70a8e4e9493ec9
   .info__content {
     font-size: 1.6rem;
     display: flex;
