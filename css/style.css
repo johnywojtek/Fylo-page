@@ -10,9 +10,12 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 48rem) {
+    html {
+      font-size: 55%; } }
   @media only screen and (max-width: 36rem) {
     html {
-      font-size: 35%; } }
+      font-size: 40%; } }
 
 body {
   background-color: #fff;
@@ -82,14 +85,14 @@ img {
 .about {
   padding: 0 0 10rem 0;
   background-color: #f8f8fe; }
-  @media only screen and (max-width: 36rem) {
+  @media only screen and (max-width: 48rem) {
     .about {
       padding: 0; } }
   .about .container {
     display: flex;
     justify-content: center;
     align-items: center; }
-    @media only screen and (max-width: 36rem) {
+    @media only screen and (max-width: 48rem) {
       .about .container {
         flex-direction: column; } }
   .about__link {
@@ -99,12 +102,12 @@ img {
     border-bottom: 1px solid #3c9e8e; }
   .about .about__text {
     padding-right: 10rem; }
-    @media only screen and (max-width: 36rem) {
+    @media only screen and (max-width: 48rem) {
       .about .about__text {
         padding-right: 0; } }
   .about__left {
     width: 55%; }
-    @media only screen and (max-width: 36rem) {
+    @media only screen and (max-width: 48rem) {
       .about__left {
         width: 90%;
         order: 2;
@@ -112,7 +115,7 @@ img {
         margin-top: 2rem; } }
   .about__right {
     width: 45%; }
-    @media only screen and (max-width: 36rem) {
+    @media only screen and (max-width: 48rem) {
       .about__right {
         width: 90%;
         order: 1; } }
@@ -125,7 +128,7 @@ img {
   width: 40%;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   border-radius: 5px; }
-  @media only screen and (max-width: 36rem) {
+  @media only screen and (max-width: 48rem) {
     .comment {
       width: 70%;
       text-align: left;
@@ -150,20 +153,20 @@ img {
 
 .early-access {
   background-color: #575988; }
-  @media only screen and (max-width: 36rem) {
+  @media only screen and (max-width: 48rem) {
     .early-access {
       text-align: center; } }
   .early-access__text {
     color: #fff;
     width: 50%;
     margin-right: 30rem; }
-    @media only screen and (max-width: 36rem) {
+    @media only screen and (max-width: 48rem) {
       .early-access__text {
         width: 90%;
         margin-right: 0; } }
   .early-access__form {
     width: 50%; }
-    @media only screen and (max-width: 36rem) {
+    @media only screen and (max-width: 48rem) {
       .early-access__form {
         width: 90%;
         margin-top: 3rem; } }
@@ -173,7 +176,7 @@ img {
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 5rem; }
-    @media only screen and (max-width: 36rem) {
+    @media only screen and (max-width: 48rem) {
       .early-access .container {
         flex-direction: column; } }
 

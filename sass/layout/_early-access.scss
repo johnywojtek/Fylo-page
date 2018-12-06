@@ -1,6 +1,6 @@
 .early-access {
     background-color: $color-desaturated-blue;
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-medium) {
         text-align: center;
     }
 
@@ -8,14 +8,14 @@
         color: $color-main;
         width: 50%;
         margin-right: 30rem;
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             width: 90%;
             margin-right: 0;
         }
     }
     &__form {
         width: 50%;
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             width: 90%;
             margin-top: 3rem;
         }
@@ -26,7 +26,7 @@
         align-items: center;
         padding-top: 5rem;
         padding-bottom: 5rem;
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             flex-direction: column;
         }
     }

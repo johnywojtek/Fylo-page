@@ -8,14 +8,14 @@
 .about {
     padding: 0 0 10rem 0;
     background-color: $color-light-blue;
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-medium) {
         padding: 0;
     }
     .container {
         display: flex;
         justify-content: center;
         align-items: center;
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             flex-direction: column;
         }
     }
@@ -27,14 +27,14 @@
     }
     .about__text {
         padding-right: 10rem;
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             padding-right: 0;
         }
     }
 
     &__left {
         width: 55%;
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             width: 90%;
             order: 2;
             text-align: center;
@@ -43,7 +43,7 @@
     }
     &__right {
         width: 45%;
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             width: 90%;
             order: 1;
         }
@@ -57,7 +57,7 @@
     width: 40%;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-medium) {
         width: 70%;
         text-align: left;
         margin: 4rem auto;
