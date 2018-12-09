@@ -11,11 +11,18 @@
         font-size: 1.6rem;
         display: flex;
         justify-content: space-between;
+        @media only screen and (max-width: $bp-small) {
+            flex-direction: column;
+        }
     }
 
     &__box {
         display: flex;
         flex-direction: column;
+
+        @media only screen and (max-width: $bp-small) {
+            margin-bottom: 2rem;
+        }
 
         &--first {
             flex-basis: 35%;
@@ -33,6 +40,10 @@
             flex-direction: row;
             align-items: flex-start;
             flex-basis: 24%;
+
+            @media only screen and (max-width: $bp-small) {
+                justify-content: center;
+            }
         }
     }
 

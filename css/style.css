@@ -205,9 +205,15 @@ img {
     font-size: 1.6rem;
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 36rem) {
+      .info__content {
+        flex-direction: column; } }
   .info__box {
     display: flex;
     flex-direction: column; }
+    @media only screen and (max-width: 36rem) {
+      .info__box {
+        margin-bottom: 2rem; } }
     .info__box--first {
       flex-basis: 35%; }
     .info__box--second {
@@ -218,6 +224,9 @@ img {
       flex-direction: row;
       align-items: flex-start;
       flex-basis: 24%; }
+      @media only screen and (max-width: 36rem) {
+        .info__box--social {
+          justify-content: center; } }
   .info__contact {
     margin-top: 2rem;
     display: flex;
