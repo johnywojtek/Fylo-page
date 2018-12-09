@@ -5,6 +5,11 @@
 
     &__container {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        @media only screen and (max-width: $bp-medium) {
+            flex-direction: column;
+        }
     }
 
     &__left, &__right {
@@ -16,6 +21,18 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        @media only screen and (max-width: $bp-medium) {
+            order: 2;
+            text-align: center;
+            margin-top: 2rem;
+            padding-right: 0;
+        }
+    }
+
+    &__right {
+        @media only screen and (max-width: $bp-medium) {
+            order: 1;
+        }
     }
 
     &__form {
