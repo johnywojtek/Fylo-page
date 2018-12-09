@@ -9,6 +9,11 @@
     &::placeholder {
         color: $color-light-grey;
     }
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 90%;
+        margin: 0;
+    }
 }
 .early-access__input {
     width: 90%;
